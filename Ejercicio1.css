@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(92, 74, 74);
+}
+
+nav {
+    margin: 0 auto;
+    color: white;
+    padding: 10px;
+    background-color: rgb(255, 40, 40);
+    text-align: center;
+    border-radius: 30px;
+    width: 455px;
+}
+
+.Contenido {
+    text-align: center;
+    padding: 30px;
+    width: 350px;
+    margin: 20px auto;
+    background-color: rgb(255, 148, 8);
+}
+
+form label {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+#Escribir{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
