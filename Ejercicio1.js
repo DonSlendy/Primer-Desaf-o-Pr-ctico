@@ -5,7 +5,14 @@ function Valor() {
     //desde el form en html
     var a = parseFloat(document.getElementById("NumeroF").value);
     var b = parseFloat(document.getElementById("NumeroC").value);
-
+    
+    if(a < 0){
+        a*=-1;
+    }
+    if(b < 0){
+        b*=-1;
+    }
+    
     var matriz = [a * b];
     var mayor = 0, menor = 0;
     for (var i = 0; i < a * b; i++) {
